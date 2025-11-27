@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sectionone{display: flex;row}
+
+h1 {
+  font-family: Martian Mono;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: -2px;
+  margin: 0;
+  background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+  background-clip: text;
+  color: transparent;
+}
+
+.p1 {
+  color: #385159;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  font-family: Inter;
+  display: block;
+  height: 84px;
+
+}
+.buttonlight{display: block; 
+     background: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
+    background-position-x: -400px;
+    transition: 200ms;
+    background-color: #FFF5EF;
+
+}
+.hero{width: 536px;border-radius: 10px;}
