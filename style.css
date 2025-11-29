@@ -3,35 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .sectionone{display: flex;row}
+.contain {margin: 150px; margin: right 0%;}
 
-h1 {
-  font-family: Martian Mono;
-  font-weight: bold;
-  font-size: 62px;
-  line-height: 120%;
-  letter-spacing: -2px;
-  margin: 0;
-  background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
-  background-clip: text;
-  color: transparent;
+.h1{font-family: Martian Mono;
+      font-size: 62px;
+      
 }
+.paragraphone {margin: 20px;margin-bottom: 20px;}
 
-.p1 {
-  color: #385159;
-  font-size: 20px;
-  line-height: 140%;
-  letter-spacing: -0.5px;
-  font-family: Inter;
-  display: block;
-  height: 84px;
-
-}
-.buttonlight{display: block; 
-     background: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
-    background-position-x: -400px;
-    transition: 200ms;
-    background-color: #FFF5EF;
+.buttonlight{margin-top:10px;margin-bottom: 10px;
+      min-height: 64px;
+    border: 2px #062630 solid;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    color: #062630;
+    font-family: Martian Mono;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-inline: 24px; letter-spacing: -1px;
+    line-height: 130%;
+    justify-content: center;
+    gap: 20px;
 
 }
-.hero{width: 536px;border-radius: 10px;}
+.avatar {width: 110px;
+    height: 40px; margin-top: 20px;
+}
+.ulstar {display: flex;list-style-type: none;}
+.hero{width: 536px;border-radius: 10px; margin-left:30%;margin-top: 15%;gap: 80px;margin-right: 0px;}
+.sectionsecond { display: flex;flex-direction: row; }
+.secondpage {display: flex;flex-direction: column;
+   gap: 30px; margin: 50px;text-align: left;margin-left: 10%;list-style-type:none;font-size:30px; line-height: 30px;}
+.logo {margin-top: -40px;margin-left:0px ;margin-bottom:20%;}
+.ulsecond {list-style-type: none;}
+.secondh {line-height: 150px;}
+.reading {   width: 560px;
+    height: fit-content;
+    border-radius: 12px;
+  margin-left:140px; display: flex;flex-direction: row;}
+  .averageimg { max-width:100% ;}
+      
